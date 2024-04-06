@@ -22,7 +22,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-   /* position: relative;*/
+    width: 100%;
 }
 
 /* Layout
@@ -114,12 +114,13 @@ body {
 .aboutme-content {
     color: #F1F1F1;
     width: 100%;
-    max-width: 1000px;
+ /*   max-width: 1000px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+ /*   padding: 12px;*/
+    
 }
 
 .projects-container {
@@ -224,7 +225,7 @@ a:hover, a:active {
 .hero-content .btn:hover, .hero-content .btn:active {
     background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid ##74b44a;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
@@ -255,16 +256,19 @@ a:hover, a:active {
 
 
 #contact, #contact-address {
+    width: 100%;
+ /*   max-width: 1000px;*/
     background-color: #232443;
     font-size: 20px;
-    
 }
 
 #contact {
-    
-    padding-top: 10px;
-    color: #F1F1F1;
+    background: #232443;
+
     width: 100%;
+ /*   max-width: 1000px;*/
+    color: #F1F1F1;
+
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -276,6 +280,7 @@ a:hover, a:active {
 #contact-address {
     color:#f08527;
     width: 100%;
+ /*   max-width: 1000px;*/
     font-family: 'Cabin', sans-serif;
  /*   display: flexbox;
     flex-flow: row;
